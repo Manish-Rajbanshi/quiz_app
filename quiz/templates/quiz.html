@@ -24,7 +24,10 @@
             <button type="submit" class="submit-button">Next</button>
         </form>
         <p>Question {{ current_question }} of {{ total_questions }}</p>
-        <a href="{% url 'add_question' %}" class="add-link">Add a Question</a>
+
+            
+            <a href="{% url 'add_question' %}" class="submit-button" style="text-decoration: none;">Add a Question</a>
+       
     </div>
 
 </body>

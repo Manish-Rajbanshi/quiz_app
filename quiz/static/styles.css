@@ -94,10 +94,14 @@ body {
     cursor: pointer;
     font-size: 16px;
     align-self: center;
+    text-decoration: none;
+   
 }
 
 .submit-button:hover {
     background-color: #0056b3;
+    text-decoration: none;
+    
 }
 
 body {
@@ -158,10 +162,13 @@ body {
     cursor: pointer;
     font-size: 16px;
     align-self: center;
+    text-decoration: line-through;
+    text-decoration: none;
 }
 
 .add-form .submit-button:hover {
     background-color: #218838;
+    text-decoration: none;
 }
 
 /* Back link styles */
