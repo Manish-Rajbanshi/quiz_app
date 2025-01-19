@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to the Quiz App</h1>
+        <p class="description">Test your knowledge with our fun and interactive quiz.</p>
+        <a href="{% url 'quiz' %}" class="start-button">Start Quiz</a>
+    </div>
+</body>
+</html>

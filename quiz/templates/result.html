@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Quiz Result</h1>
+        <p class="result-message">You scored <strong>{{ score }}</strong> out of <strong>{{ total }}</strong>!</p>
+        <a href="{% url 'quiz' %}" class="retry-button">Try Again</a>
+        <a href="{% url 'index' %}" class="home-button">Back to Home</a>
+    </div>
+</body>
+</html>

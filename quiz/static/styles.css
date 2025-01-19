@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.start-button, .retry-button, .home-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.start-button:hover, .retry-button:hover, .home-button:hover {
+    background-color: #0056b3;
+}
+
+.result-message {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.question-set {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.option-label input {
+    margin-right: 10px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for the form in add.html */
+.add-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.add-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-form input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.add-form .submit-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+}
+
+.add-form .submit-button:hover {
+    background-color: #218838;
+}
+
+/* Back link styles */
+.back-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
